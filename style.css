@@ -76,3 +76,24 @@
         float:right;
         margin-right: 100px ;
     }
+   .botao_central {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+   .botao_link {
+    display: inline-block;
+    margin: 0 8px 10px;
+    max-width: 140px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.botao_link:hover {
+    background-color: rgb(0, 0, 201);
+    color: rgb(255, 253, 239);
+}
