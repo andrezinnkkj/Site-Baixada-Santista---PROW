@@ -37,7 +37,7 @@
     .texto {
          font-family: Arial, Helvetica, sans-serif;
          -webkit-text-fill-color: rgb(0, 0, 0);
-         font-size: 18px;
+         font-size: 20px;
     }
     .imagem_com_texto {
         display: flex;
@@ -74,19 +74,27 @@
         font-size: 25px;
         -webkit-text-fill-color: rgb(247, 143, 8);
         text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     .italico_central{
         text-align: center;
         font-style: italic;
         -webkit-text-fill-color: lightslategray;
     }
+    .imagem_direita {
+        float: right;
+        height:460px;
+        width: 290px;
+        margin-right: 630px;
+        text-align: center;
+    }
     .imagem_direita img{
-          width: 500px ;
-        height: 750px;
-        display: flex;
-        border-radius: 8px;
-        float:right;
-        margin-right: 100px ;
+        width:  300px;
+        height: 460px;
+    }
+    .legenda{
+        font-size: 14px;
+        font-style: italic;
     }
    .botao_central {
         text-align: center;
@@ -109,3 +117,23 @@
     background-color: rgb(0, 0, 201);
     color: rgb(255, 253, 239);
 }
+.textoes{
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin-left: 520px;
+        max-width: 40ch;
+    }
+    .textodiv{
+        display: flex;
+        margin-left: 125px;
+        text-align: center;
+    }
+    .textodiv1{
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-text-fill-color: lightslategray;
+        font-size: 12px;
+        margin-right: 36px;
+        margin-left: 125px;
+        max-width: 40ch;
+    }
