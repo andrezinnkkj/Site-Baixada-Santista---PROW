@@ -14,6 +14,13 @@
          font-family: var(--fonte-principal);
      }
 
+     img {
+         display: inline-flex;
+         border-radius: var(--bordaredonda);
+         max-width: 45%;
+         justify-content: flex-start;
+     }
+
      h1 {
          background-color: var(--azulClaro);
          font-size: 60px;
