@@ -17,7 +17,7 @@
      img {
          display: inline-flex;
          border-radius: var(--bordaredonda);
-        
+         margin: 10px;
          justify-content: flex-start;
      }
 
