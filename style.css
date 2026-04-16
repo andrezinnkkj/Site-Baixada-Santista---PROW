@@ -179,6 +179,10 @@
          max-width: 40ch;
          margin: 10px auto 0 auto;
      }
+      .textopt2 {
+    display: flex;
+    gap: 10px;
+  }
 
      .row {
          display: flex;
