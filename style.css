@@ -17,7 +17,7 @@
      img {
          display: inline-flex;
          border-radius: var(--bordaredonda);
-         max-width: 45%;
+        
          justify-content: flex-start;
      }
 
@@ -80,7 +80,6 @@
      .imagem_com_texto img {
          display: block;
          border-radius: var(--bordaredonda);
-         max-width: 450px;
      }
 
      .imagem_e_titulo {
@@ -136,7 +135,7 @@
      .imagem_direita img {
          display: flex;
          gap: 20px;
-         width: 300px;
+         width: 400px;
          height: auto;
          border-radius: var(--bordaredonda);
      }
@@ -172,7 +171,10 @@
 
      .textoes {
          display: flex;
+         justify-content: center;
          font-size: 18px;
+         max-width: 40ch;
+         margin: 10px auto 0 auto;
      }
 
      .row {
