@@ -68,30 +68,22 @@
      }
 
      .imagem_com_texto {
-         display: flex;
-         align-items: flex-start;
+        display: flex;
          gap: 24px;
      }
 
-     .imagem_com_texto p {
-         flex: 1;
-     }
-
+   
      .imagem_com_texto img {
          display: block;
          border-radius: var(--bordaredonda);
      }
-
      .imagem_e_titulo {
-         max-width: 500px;
+         justify-content: center;
+         text-align: center;
+         
      }
-
-     .imagem_e_titulo img {
-         width: 100%;
-         height: auto;
-         display: block;
-         border-radius: 8px;
-     }
+    
+        
 
      .texto_lista {
          display: flex;
@@ -120,10 +112,11 @@
      }
 
      .italico_central {
-         text-align: center;
+         text-align: center;   
+         margin-top: 10px;
          font-style: italic;
          color: lightslategray;
-     }
+        }
 
      .imagem_direita {
          float: right;
@@ -182,6 +175,7 @@
       .textopt2 {
     display: flex;
     gap: 10px;
+    justify-content: center;
   }
 
      .row {
